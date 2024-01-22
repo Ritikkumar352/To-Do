@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+.input_div {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+
+
+.add{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin: 4%;
+    padding: 5%;
+}
+
+.add_btn{
+    border-radius: 8px;
+    border: none;
+    margin: 4%;
+    width: auto;
+    padding:4%;
+    height: auto;
+} 
+
+.list_box {
+  background-color: yellowgreen;
+  padding-right: 2%;
+  margin-top: 1%;
+}
+
+.rbtn{
+    /* add margin */
+    border: none;
+    border-radius: 9%;
+}
